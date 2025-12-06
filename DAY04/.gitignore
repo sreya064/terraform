@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# Variables (can contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
